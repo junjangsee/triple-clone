@@ -7,6 +7,7 @@ export * from './atoms/font-weight';
 export * from './atoms/color';
 export * from './atoms/border-radius';
 export * from './atoms/background-color';
+export * from './atoms/width';
 export * from './atoms/height';
 export * from './atoms/text-align';
 export * from './atoms/min-height';
