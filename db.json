@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nickname": "클론코딩",
+      "thumbnail": "https://images.unsplash.com/photo-1606276969080-bf446209054a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8dG93SlpGc2twR2d8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=60",
+      "email": "abc@gmail.com",
+      "password": "1234",
+      "phoneNumber": "01012345678",
+      "terms": {
+        "age": true,
+        "service": true,
+        "privacy": true,
+        "location": true,
+        "event": false
+      }
+    }
+  ]
+}
