@@ -1,5 +1,11 @@
+import IntroPage from './pages/introPage';
+
 function App() {
-  return <div>ㅎㅇㅎㅇ</div>;
+  return (
+    <>
+      <IntroPage />
+    </>
+  );
 }
 
 export default App;

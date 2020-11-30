@@ -7,9 +7,12 @@ import {
   lineHeight,
   color,
   block,
-} from '../../shared/mixins';
+} from '../../../shared/mixins';
+import COLORS from '../../../shared/colors';
 
 export default styled.span`
+  color: ${COLORS.white};
+
   ${fontSize};
   ${fontWeight};
   ${lineHeight};
