@@ -7,11 +7,16 @@ import {
   fontWeight,
   borderRadius,
   backgroundColor,
-} from '../../shared/mixins';
-import COLORS from '../../shared/colors';
+  flexColumnCentered,
+  flexRowCentered,
+  flexBox,
+  height,
+} from '../../../shared/mixins';
+import COLORS from '../../../shared/colors';
 
 export default styled.button`
   color: ${COLORS.white};
+  box-sizing: border-box;
 
   ${margin};
   ${padding};
@@ -20,4 +25,8 @@ export default styled.button`
   ${fontWeight};
   ${backgroundColor};
   ${borderRadius};
+  ${flexBox};
+  ${flexColumnCentered};
+  ${flexRowCentered};
+  ${height}
 `;

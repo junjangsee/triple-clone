@@ -2,13 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createGlobalStyle } from 'styled-components';
-import reset from 'styled-reset';
-
-const GlobalStyle = createGlobalStyle`
-  ${reset}
-  /* other styles */
-`;
+import GlobalStyle from './shared/global-styles';
 
 ReactDOM.render(
   <React.StrictMode>

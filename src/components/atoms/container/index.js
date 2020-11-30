@@ -7,13 +7,14 @@ import {
   maxWidth,
   minHeight,
   borderRadius,
+  background,
   backgroundColor,
   textAlign,
   centered,
   flexBox,
   flexRowCentered,
   flexColumnCentered,
-} from '../../shared/mixins';
+} from '../../../shared/mixins';
 
 export default styled.div`
   box-sizing: border-box;
@@ -31,4 +32,5 @@ export default styled.div`
   ${flexColumnCentered};
   ${backgroundColor};
   ${borderRadius};
+  ${background}
 `;
